@@ -88,7 +88,7 @@ def CheckNewPosts(posts):
           if "lorelai" in comment.body.lower() or "lorelei" in comment.body.lower():
             print("       Comment mentions 'Lorelai' or 'Lorelei", file=stderr)
             if not AlreadyReplied(comment.replies):
-              print("         Comment yet to be replied")
+              print("         Comment yet to be replied", file=stderr)
               quote_replied = ReplyRandomQuote(comment)
               InformReplyOnScreen(comment, quote_replied)
               StoreReply(comment, quote_replied)
