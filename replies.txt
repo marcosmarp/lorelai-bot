@@ -207,3 +207,46 @@ Reply #19
  Reply data:
    Replied quote: “976-BITE-ME.”
 
+Reply #20
+ Replied comment data:
+   Author: Cats_and_babies
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/hg1ua04/
+   Post:
+     Title: Introducing Lorelai-Bot, a fully functional Reddit bot that replies you "Lorelai" mention with a quote from her!
+     Author: lorelai-bot
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/
+ Reply data:
+   Replied quote: “When I have made one zillion dollars from my rocket gum invention you will eat those words! Or rather you will chew those words and blow a bubble with them.”
+
+Reply #21
+ Replied comment data:
+   Author: magsterss
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/hg1vj5i/
+   Post:
+     Title: Introducing Lorelai-Bot, a fully functional Reddit bot that replies you "Lorelai" mention with a quote from her!
+     Author: lorelai-bot
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/
+ Reply data:
+   Replied quote: “When I think of blistering thirty-degree burns, I also think of my mother.”
+
+Reply #22
+ Replied comment data:
+   Author: N_Huq
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/hg1xwhx/
+   Post:
+     Title: Introducing Lorelai-Bot, a fully functional Reddit bot that replies you "Lorelai" mention with a quote from her!
+     Author: lorelai-bot
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/
+ Reply data:
+   Replied quote: “He asked, 'Tell me right now, Lorelai, why aren't you in school?' and I tried to think of something. Some lie that would make sense, but I couldn't. All I could think was that yesterday I had a boyfriend who loved me and today I didn't, and I started to cry. I just sat there like an idiot, bawling. And finally, after what seemed like forever, I managed to control myself a little bit and I calmed down and I waited. I waited for him to yell at me, to punish me, to ground me forever. To tell me how disappointed he was in me, and nothing came. And finally I got up enough courage to look up at him, and he was standing there with with a pretzel. A giant pretzel covered in mustard.”
+Reply #22
+ Replied comment data:
+   Author: Mlcoulthard
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/hg1zbr2/
+   Post:
+     Title: Introducing Lorelai-Bot, a fully functional Reddit bot that replies you "Lorelai" mention with a quote from her!
+     Author: lorelai-bot
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/
+ Reply data:
+   Replied quote: “I thought I knew exactly what I wanted, where I was going, what I was doing and why I was doing. But lately, things seem hazier.”
+
