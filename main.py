@@ -5,4 +5,3 @@ doctor_who_subreddit_handler = reddit_handler.subreddit("gilmoregirls")
 
 while(True):
   RunBot(doctor_who_subreddit_handler)
-  sleep(2) # Minimum time between requests
