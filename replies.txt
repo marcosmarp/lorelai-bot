@@ -130,3 +130,25 @@ Reply #12
  Reply data:
    Replied quote: “You know my babbling capabilities are infinite.”
 
+Reply #13
+ Replied comment data:
+   Author: lorelai-bot
+   Link: https://www.reddit.com/r/lorelaibot/comments/q4x12x/test_3/hg1jy9e/
+   Post:
+     Title: test 3
+     Author: lorelai-bot
+     Link: https://www.reddit.com/r/lorelaibot/comments/q4x12x/test_3/
+ Reply data:
+   Replied quote: “There's plenty to do tonight that we can be mortified about tomorrow.”
+
+Reply #14
+ Replied comment data:
+   Author: lorelai-bot
+   Link: https://www.reddit.com/r/lorelaibot/comments/q4x12x/test_3/hg1jy9e/
+   Post:
+     Title: test 3
+     Author: lorelai-bot
+     Link: https://www.reddit.com/r/lorelaibot/comments/q4x12x/test_3/
+ Reply data:
+   Replied quote: “It's my life, Rory. I went through all this effort for many, many years making sure people only knew what I wanted them to know, and now you're going to lay it all out in a book?”
+
