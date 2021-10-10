@@ -78,12 +78,12 @@ def InformReplyOnScreen(comment, reply):
 
 def CheckNewPosts(posts):
   for post in posts:
-    if post.author.name is not None: # Check that the post wasn't deleted
+    if post.author is not None: # Check that the post wasn't deleted
       print("Checking " + post.author.name + "'s '" + post.title + "' post", file=stderr)
       if PostHaveComments(post):
         print(" Post have comments", file=stderr)
         for comment in post.comments:
-          if comment.author.name is not None: # Check that the comment wasn't deleted
+          if comment.author is not None: # Check that the comment wasn't deleted
             print("   Checking " + comment.author.name + "'s comment", file=stderr)
             if hasattr(comment, "body"):
               print("     Comment have body", file=stderr)
