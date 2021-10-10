@@ -78,34 +78,41 @@ def InformReplyOnScreen(comment, reply):
 
 def CheckNewPosts(posts):
   for post in posts:
-    print("Checking " + post.author.name + "'s '" + post.title + "' post", file=stderr)
-    if PostHaveComments(post):
-      print(" Post have comments", file=stderr)
-      for comment in post.comments:
-        print("   Checking " + comment.author.name + "'s comment", file=stderr)
-        if hasattr(comment, "body"):
-          print("     Comment have body", file=stderr)
-          if "lorelai" in comment.body.lower() or "lorelei" in comment.body.lower():
-            print("       Comment mentions 'Lorelai' or 'Lorelei", file=stderr)
-            if not AlreadyReplied(comment.replies):
-              print("         Comment yet to be replied", file=stderr)
-              quote_replied = ReplyRandomQuote(comment)
-              InformReplyOnScreen(comment, quote_replied)
-              StoreReply(comment, quote_replied)
-              sleep(600)
+    if post.author.name is not None: # Check that the post wasn't deleted
+      print("Checking " + post.author.name + "'s '" + post.title + "' post", file=stderr)
+      if PostHaveComments(post):
+        print(" Post have comments", file=stderr)
+        for comment in post.comments:
+          if comment.author.name is not None: # Check that the comment wasn't deleted
+            print("   Checking " + comment.author.name + "'s comment", file=stderr)
+            if hasattr(comment, "body"):
+              print("     Comment have body", file=stderr)
+              if "lorelai" in comment.body.lower() or "lorelei" in comment.body.lower():
+                print("       Comment mentions 'Lorelai' or 'Lorelei", file=stderr)
+                if not AlreadyReplied(comment.replies):
+                  print("         Comment yet to be replied", file=stderr)
+                  quote_replied = ReplyRandomQuote(comment)
+                  InformReplyOnScreen(comment, quote_replied)
+                  StoreReply(comment, quote_replied)
+                  sleep(600)
+                else:
+                  print("Comment already replied", file=stderr)
+                  print("---------------", file=stderr)
+              else: 
+                print("Comment doesn't mentions 'Lorelai' or 'Lorelei", file=stderr)
+                print("---------------", file=stderr)
             else:
-              print("Comment already replied", file=stderr)
+              print("Comment doesn't have body", file=stderr)
               print("---------------", file=stderr)
-          else: 
-            print("Comment doesn't mentions 'Lorelai' or 'Lorelei", file=stderr)
+          else:
+            print("Comment was deleted", file=stderr)
             print("---------------", file=stderr)
-        else:
-          print("Comment doesn't have body", file=stderr)
-          print("---------------", file=stderr)
+      else:
+        print("Post doesn't have comments", file=stderr)
+        print("---------------", file=stderr)
     else:
-      print("Post doesn't have comments", file=stderr)
+      print("Post was deleted", file=stderr)
       print("---------------", file=stderr)
-
 
 def RunBot(subreddit_handler):
  CheckNewPosts(subreddit_handler.new(limit=15))
