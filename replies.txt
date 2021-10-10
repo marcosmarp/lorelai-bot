@@ -152,3 +152,58 @@ Reply #14
  Reply data:
    Replied quote: “It's my life, Rory. I went through all this effort for many, many years making sure people only knew what I wanted them to know, and now you're going to lay it all out in a book?”
 
+Reply #15
+ Replied comment data:
+   Author: kevavz
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/hg1tb0v/
+   Post:
+     Title: Introducing Lorelai-Bot, a fully functional Reddit bot that replies you "Lorelai" mention with a quote from her!
+     Author: lorelai-bot
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4x6no/introducing_lorelaibot_a_fully_functional_reddit/
+ Reply data:
+   Replied quote: “When I think of blistering thirty-degree burns, I also think of my mother.”
+
+Reply #16
+ Replied comment data:
+   Author: mytwoquarters
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4vprq/emily/hg1dgdr/
+   Post:
+     Title: Emily
+     Author: Pristine_Slip_4076
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4vprq/emily/
+ Reply data:
+   Replied quote: “Seventy-five thousand dollars? Oh my God, that’s like 150 pairs of Jimmy Choos.”
+
+Reply #17
+ Replied comment data:
+   Author: Jewlzs96
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4vprq/emily/hg1eihi/
+   Post:
+     Title: Emily
+     Author: Pristine_Slip_4076
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4vprq/emily/
+ Reply data:
+   Replied quote: “Oh yes, it was beautiful in there. We should commemorate it with an oil painting or a severed head or something.”
+
+Reply #18
+ Replied comment data:
+   Author: trainsounds31
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4xys3/shameless_crossover/hg1z1g5/
+   Post:
+     Title: Shameless crossover
+     Author: rrrtemple
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4xys3/shameless_crossover/
+ Reply data:
+   Replied quote: “Hey, I have a New Year's resolution for you: Become more cynical and self-absorbed.”
+
+Reply #19
+ Replied comment data:
+   Author: mytwoquarters
+   Link: https://www.reddit.com/r/GilmoreGirls/comments/q4y5n2/luke_not_telling_lorelai_about_april/hg203dk/
+   Post:
+     Title: Luke not telling Lorelai about April
+     Author: HateItHere505
+     Link: https://www.reddit.com/r/GilmoreGirls/comments/q4y5n2/luke_not_telling_lorelai_about_april/
+ Reply data:
+   Replied quote: “976-BITE-ME.”
+
