@@ -10,7 +10,7 @@ def InitPraw():
   return Reddit(
     client_id = environ['CLIENT_ID'],
     client_secret = environ['CLIENT_SECRET'],
-    user_agent="console:lorelai-bot:v1.0.0 (by u/doctor-who-bot)",
+    user_agent="console:lorelai-bot:v1.0.1 (by u/lorelai-bot)",
     username = "lorelai-bot",
     password = environ['PASSWORD']
   )
@@ -83,14 +83,14 @@ def CheckNewPosts(posts):
             print("   Checking " + comment.author.name + "'s comment", file=stderr)
             if hasattr(comment, "body"):
               print("     Comment have body", file=stderr)
-              if "!Lorelai" in comment.body.lower() or "!Lorelei" in comment.body.lower():
+              if "!lorelai" in comment.body.lower() or "!lorelei" in comment.body.lower():
                 print("       Comment mentions '!Lorelai' or '!Lorelei'", file=stderr)
                 if not AlreadyReplied(comment.replies):
                   print("         Comment yet to be replied", file=stderr)
                   quote_replied = ReplyRandomQuote(comment)
                   InformReplyOnScreen(comment, quote_replied)
                   StoreReply(comment, quote_replied)
-                  sleep(600)
+                  #sleep(600)
                 else:
                   print("Comment already replied", file=stderr)
                   print("---------------", file=stderr)
