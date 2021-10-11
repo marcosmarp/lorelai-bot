@@ -65,10 +65,6 @@ def StoreReply(comment, reply):
     file_object.write("\n")
     file_object.write("     Link: https://www.reddit.com" + comment.submission.permalink)
     file_object.write("\n")
-    file_object.write(" Reply data:")
-    file_object.write("\n")
-    file_object.write("   Replied quote: " + reply)
-    file_object.write("\n")
 
 def InformReplyOnScreen(comment, reply):
   now = datetime.now(pytz.timezone('America/Argentina/Buenos_Aires'))
@@ -87,8 +83,8 @@ def CheckNewPosts(posts):
             print("   Checking " + comment.author.name + "'s comment", file=stderr)
             if hasattr(comment, "body"):
               print("     Comment have body", file=stderr)
-              if "lorelai" in comment.body.lower() or "lorelei" in comment.body.lower():
-                print("       Comment mentions 'Lorelai' or 'Lorelei", file=stderr)
+              if "!Lorelai" in comment.body.lower() or "!Lorelei" in comment.body.lower():
+                print("       Comment mentions '!Lorelai' or '!Lorelei'", file=stderr)
                 if not AlreadyReplied(comment.replies):
                   print("         Comment yet to be replied", file=stderr)
                   quote_replied = ReplyRandomQuote(comment)
@@ -99,7 +95,7 @@ def CheckNewPosts(posts):
                   print("Comment already replied", file=stderr)
                   print("---------------", file=stderr)
               else: 
-                print("Comment doesn't mentions 'Lorelai' or 'Lorelei", file=stderr)
+                print("Comment doesn't mention '!Lorelai' or '!Lorelei'", file=stderr)
                 print("---------------", file=stderr)
             else:
               print("Comment doesn't have body", file=stderr)
