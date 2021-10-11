@@ -90,7 +90,7 @@ def CheckNewPosts(posts):
                   quote_replied = ReplyRandomQuote(comment)
                   InformReplyOnScreen(comment, quote_replied)
                   StoreReply(comment, quote_replied)
-                  #sleep(600)
+                  sleep(600)
                 else:
                   print("Comment already replied", file=stderr)
                   print("---------------", file=stderr)
